@@ -1,0 +1,51 @@
+﻿
+@import url('header-v2.css');
+
+.page-header-v2 {
+    z-index: -3;
+    position: relative;
+    text-align: center;
+    padding: 60px 0;
+    height: 300px;
+    background: linear-gradient(180deg,rgba(25,35,45,1),rgba(20,30,70,0.75)),linear-gradient(90deg,#f00,#38f);
+    top: -100px;
+    margin-bottom: -80px;
+}
+
+/*.page-header-v2:after {
+    top: -100px;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+    position: absolute;
+}*/
+
+
+    /*.page-header-v2 {
+        top: -100px;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 362px;
+        content: " ";
+        position: relative;
+       background: #06c;
+       text-align: center;
+        display: block;
+    }
+        */
+    .page-header-v2 h1, .page-header-v2 p, .page-header-v2 a:link {
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        
+    }
+
+    .page-header-v2 h1 {
+        padding: 40px 0 10px 0;
+        font-size: 55px;
+    }
+
+    .page-header-v2 p {
+        font-size: 23px;
+        padding: 0 0 30px 0;
+    }

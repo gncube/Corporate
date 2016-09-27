@@ -1,0 +1,1260 @@
+
+@import 'https://fonts.googleapis.com/css?family=Bitter';
+@import url(https://fonts.googleapis.com/css?family=Lato|Bitter:400,700);
+
+@font-face {
+    font-family: 'FrutigerLight';
+    src: url('assets/fonts/2638B7_0_0.eot');
+    src: url('assets/fonts/2638B7_0_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_0_0.woff') format('woff'),url('assets/fonts/2638B7_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FrutigerRoman';
+    src: url('assets/fonts/2638B7_1_0.eot');
+    src: url('assets/fonts/2638B7_1_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_1_0.woff') format('woff'),url('assets/fonts/2638B7_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FrutigerBold';
+    src: url('assets/fonts/2638B7_2_0.eot');
+    src: url('assets/fonts/2638B7_2_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_2_0.woff') format('woff'),url('assets/fonts/2638B7_2_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FrutigerBoldItalic';
+    src: url('assets/fonts/26631E_0_0.eot');
+    src: url('assets/fonts/26631E_0_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/26631E_0_0.woff') format('woff'),url('assets/fonts/26631E_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url("assets/fonts/icomoon/icomoon.eot");
+    src: url("assets/fonts/icomoon/icomoon.eot?#iefix-ub6n8o") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf") format("truetype"), url("assets/fonts/icomoon/icomoon.woff") format("woff"), url("assets/fonts/icomoon/icomoon.svg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url("assets/fonts/icomoon/icomoon.eot");
+    src: url("assets/fonts/icomoon/icomoon.eot?#iefix-ub6n8o") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf") format("truetype"), url("assets/fonts/icomoon/icomoon.woff") format("woff"), url("assets/fonts/icomoon/icomoon.svg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Frutiger LT W01 55 Roman";
+    src: url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.eot"); /* IE9*/
+    src: url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.woff2") format("woff2"), /* chrome、firefox */
+    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.woff") format("woff"), /* chrome、firefox */
+    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.svg#Frutiger LT W01 55 Roman") format("svg"); /* iOS 4.1- */
+}
+
+
+html, p, ul, ol, table {
+    /*font-family: FrutigerLight, Arial, sans-serif;*/
+    font-family: 'Frutiger LT W01 55 Roman';
+    font-size: 1.15em;
+    line-height: 1.5;
+    color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', sans-serif;
+    font-weight: normal;
+    display: block !important;
+}
+
+h2 {
+    color: #222;   
+}
+
+.borded {
+     height: .2em;
+    display: block;
+    width: 2.2em;
+    background-color: #E28C05;
+    margin-top: 0.2em;
+}
+
+.hero h1 {
+    position: relative;
+    padding-top: 7em;
+    font-weight: normal;
+}
+
+.hero h1 span {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0.35em 0.5em;
+    margin-left: 0.5em;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.headerSeparator {
+    background-color: #E28C05;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 15px;
+}
+
+.headerSeparator i.icon-bracketDetail {
+    position: relative;
+    top: 14px;
+    left: 4px;
+    font-size: 19px;
+    color: #E28C05;
+    z-index: 9;
+}
+
+
+.footerSeparator {
+    background-color: #E28C05;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 1px;
+}
+
+.footerSeparator i.icon-bracketDetail {
+    position: relative;
+    top: 0;
+    left: 92%;
+    font-size: 19px;
+    color: #E28C05;
+    z-index: 9;
+}
+
+.letbPicker {
+    max-width: none;
+    background-color: #eee;
+    padding: 2em 0;
+}
+.borderBottomBlue {
+    border-bottom: 0.3em solid #3360A9;
+}
+
+
+/*Masonry*/
+
+
+/****************************************************/
+/** Register & Login ********************************/
+/****************************************************/
+.inline-list {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+    .inline-list li {
+        display: inline-block;
+    }
+
+    .inline-list li {
+        float: right;
+    }
+
+.registerGroup li {
+    float: left;
+    display: inline-block;
+}
+
+.registerGroup .buttonGroup {
+    margin-right: 0;
+}
+
+.registerGroup a, .loginGroup a {
+    color: #fff;
+    display: block;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    min-width: 12px;
+    padding: 0 15px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+    .registerGroup a:hover, .loginGroup a:hover {
+        background: rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
+
+    .registerGroup a:hover, .loginGroup a:hover {
+        text-decoration: none;
+    }
+
+    .registerGroup a:active, .loginGroup a:active {
+        text-shadow: none;
+    }
+
+    .registerGroup a strong, .loginGroup a strong {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        font-size: 0;
+        text-indent: -9999px;
+    }
+
+.userMessages a, .userNotifications a {
+    background-color: transparent;
+}
+
+.userMessages strong {
+    height: 100%;
+    background: url('assets/img/message_icon.png') no-repeat center center;
+}
+
+.userNotifications {
+}
+
+    .userNotifications strong {
+        height: 100%;
+        background: url('assets/img/notification_icon.png') no-repeat center center;
+    }
+
+.registerGroup a span {
+    display: inline-block;
+    min-width: 7px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.registerGroup .userProfileImg a {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 0;
+}
+
+.registerGroup a img {
+    height: 32px;
+    width: 32px;
+}
+
+.loginGroup {
+}
+
+.userMessages a span,
+.userNotifications a span {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 0;
+    background-color: transparent;
+}
+
+.userNotifications span, .userMessages span {
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0;
+    text-indent: -9999px;
+    z-index: 999;
+}
+
+.userNotifications span {
+    background: url('../../img/icon_notification_active.png') no-repeat center center;
+}
+
+.userMessages span {
+    background: url('../../img/icon_message_active.png') no-repeat center center;
+}
+/****************************************************/
+/** Register & Login ********************************/
+/****************************************************/
+
+
+/****************************************************/
+/** Language ****************************************/
+/****************************************************/
+.language .language-object {
+    margin: 0;
+    padding: 0;
+}
+
+    .language .language-object span:first-child {
+        padding-left: 8px;
+    }
+
+    .language .language-object span {
+        float: left;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    .language .language-object .Language.selected img {
+        opacity: 1;
+    }
+
+    .language .language-object span img {
+        height: 20px;
+        width: 25px;
+        opacity: 0.3;
+    }
+/****************************************************/
+/** Language ****************************************/
+/****************************************************/
+
+/****************************************************/
+/** Topbar search button ****************************/
+/****************************************************/
+
+.search-button,
+.search-button a,
+.search-button a:link,
+.search-button a:active,
+.search-button a:visited,
+.search-button a:focus {
+    padding: 3px 5px 3px 10px;
+    color: #555555;
+}
+
+/****************************************************/
+/** Topbar search button ****************************/
+/****************************************************/
+
+/****************************************************/
+/** Search Input ************************************/
+/****************************************************/
+
+#dnn_dnnSearch_ClassicSearch {
+}
+
+#dnn_dnnSearch2_txtSearch {
+    min-width: 260px;
+    margin: 6px 5px 0 0;
+    height: 34px;
+    color: #333;
+}
+
+#dnn_dnnSearch2_cmdSearch {
+    float: right;
+    margin: 6px 0;
+}
+
+.searchInputContainer {
+    margin: 2px 0;
+}
+
+    .searchInputContainer input {
+        padding: 2px 10px;
+        margin: 2px 0;
+        height: 27px;
+        color: #333;
+    }
+
+        .searchInputContainer input::-webkit-input-placeholder {
+            color: #818181;
+        }
+
+        .searchInputContainer input:-moz-placeholder {
+            color: #818181;
+        }
+
+        .searchInputContainer input::-moz-placeholder {
+            color: #818181;
+        }
+
+        .searchInputContainer input:-ms-input-placeholder {
+            color: #818181;
+        }
+
+    .searchInputContainer a.dnnSearchBoxClearText {
+        right: 0 !important;
+    }
+
+        .searchInputContainer a.dnnSearchBoxClearText.dnnShow {
+            bottom: 20px;
+        }
+
+.SearchButton {
+    visibility: hidden;
+}
+
+ul.searchSkinObjectPreview {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    border-top: none;
+    width: 100%;
+    z-index: 200;
+    padding: 3px;
+}
+
+/****************************************************/
+/** Search Input ************************************/
+/****************************************************/
+
+/****************************************************/
+/** NavBar ************************************/
+/****************************************************/
+@media (min-width: 991px) {
+    #dnnMenu {
+        margin: 0 0 0 -15px;
+    }
+
+    .navbar-default .navbar-brand {
+        margin: 0 -15px 0 0;
+    }
+}
+
+.header-fixed-shrink .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    margin-top: -40px;
+    border-bottom: none;
+    box-shadow: 0 0 3px #bbb;
+    background: rgba(255,255,255, 0.96);
+    transition: all 0.3s ease-in-out;
+}
+
+/****************************************************/
+/** NavBar  *************************************/
+/****************************************************/
+
+
+/* Empty Panes */
+.DNNEmptyPane {
+    width: 0 !important;
+    margin: 0 !important;
+    display: none !important;
+    height: 0 !important;
+}
+
+
+/*Spaces*/
+.margin-bottom-5,
+.margin-bottom-10,
+.margin-bottom-20,
+.margin-bottom-20,
+.margin-bottom-25,
+.margin-bottom-30,
+.margin-bottom-35,
+.margin-bottom-40,
+.margin-bottom-50,
+.margin-bottom-60 {
+    clear: both;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-right-25 {
+    margin-right: 25px;
+}
+
+.margin-right-30 {
+    margin-right: 30px;
+}
+
+.margin-right-35 {
+    margin-right: 35px;
+}
+
+.margin-right-40 {
+    margin-right: 40px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
+.margin-right-60 {
+    margin-right: 60px;
+}
+
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-left-25 {
+    margin-left: 25px;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+.margin-left-35 {
+    margin-left: 35px;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
+}
+
+.margin-left-60 {
+    margin-left: 60px;
+}
+
+.margin-top-5,
+.margin-top-10,
+.margin-top-20,
+.margin-top-20,
+.margin-top-25,
+.margin-top-30,
+.margin-top-35,
+.margin-top-40,
+.margin-top-50,
+.margin-top-60 {
+    clear: both;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+/*Right and Left Border*/
+.right-border-10 {
+    border-right: 10px solid #fff;
+}
+
+.right-border-20 {
+    border-right: 20px solid #fff;
+}
+
+.left-border-10 {
+    border-left: 10px solid #fff;
+}
+
+.left-border-20 {
+    border-left: 20px solid #fff;
+}
+
+.no-padding, .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+    .no-padding p, .nopadding p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .no-padding.col-md-12 {
+        padding: 0 !important;
+        margin: 0 -15px !important;
+    }
+
+
+/*Pop Up Fix*/
+/*.dnnFormPopup {
+  position: absolute !important;
+  padding: 18px;
+  top: 30% !important;
+  background: #fff;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  z-index: 100000;
+}*/
+
+/*Bootswatch*/
+.bs-component {
+    position: relative;
+}
+
+
+/*DNN Fix Select*/
+
+a.selected-value {
+    min-height: 32px !important;
+}
+
+
+.upper-case a {
+}
+
+
+/*Column Sizes
+------------------------------------*/
+/*Remove the Gutter Padding from Columns*/
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-gutter.no-gutter-boxed {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*Heights
+------------------------------------*/
+.height-50 {
+    min-height: 50px;
+}
+
+.height-100 {
+    min-height: 100px;
+}
+
+.height-150 {
+    min-height: 150px;
+}
+
+.height-200 {
+    min-height: 200px;
+}
+
+.height-250 {
+    min-height: 250px;
+}
+
+.height-300 {
+    min-height: 300px;
+}
+
+.height-340 {
+    min-height: 340px;
+}
+
+.height-350 {
+    min-height: 350px;
+}
+
+.height-400 {
+    min-height: 400px;
+}
+
+.height-450 {
+    min-height: 450px;
+}
+
+.height-500 {
+    min-height: 500px !important;
+}
+
+/*Spaces
+------------------------------------*/
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-top-space {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.no-bottom-space {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.content-xs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content {
+    
+}
+
+.content-sm {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content-md {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.content-lg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.space-lg-hor {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.space-xlg-hor {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.margin-bottom-5,
+.margin-bottom-10,
+.margin-bottom-15,
+.margin-bottom-20,
+.margin-bottom-25,
+.margin-bottom-30,
+.margin-bottom-35,
+.margin-bottom-40,
+.margin-bottom-45,
+.margin-bottom-50,
+.margin-bottom-55,
+.margin-bottom-60,
+.margin-bottom-100 {
+    clear: both;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-45 {
+    margin-bottom: 45px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-55 {
+    margin-bottom: 55px;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .sm-margin-bottom-10 {
+        margin-bottom: 10px;
+    }
+
+    .sm-margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+
+    .sm-margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+
+    .sm-margin-bottom-40 {
+        margin-bottom: 40px;
+    }
+
+    .sm-margin-bottom-50 {
+        margin-bottom: 50px;
+    }
+
+    .sm-margin-bottom-60 {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .md-margin-bottom-10 {
+        margin-bottom: 10px;
+    }
+
+    .md-margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+
+    .md-margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+
+    .md-margin-bottom-40 {
+        margin-bottom: 40px;
+    }
+
+    .md-margin-bottom-50 {
+        margin-bottom: 50px;
+    }
+
+    .md-margin-bottom-60 {
+        margin-bottom: 60px;
+    }
+}
+
+/*Other Spaces*/
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.radius-zero {
+    border-radius: 0 !important;
+}
+
+/*Text Colors
+------------------------------------*/
+.color-sea {
+    color: #1abc9c;
+}
+
+.color-red {
+    color: #e74c3c;
+}
+
+.color-aqua {
+    color: #27d7e7;
+}
+
+.color-blue {
+    color: #3498db;
+}
+
+.color-grey {
+    color: #95a5a6;
+}
+
+.color-dark {
+    color: #555555;
+}
+
+.color-darker {
+    color: #333333;
+}
+
+.color-green {
+    color: #72c02c;
+}
+
+.color-brown {
+    color: #9c8061;
+}
+
+.color-light {
+    color: #ffffff;
+}
+
+.color-orange {
+    color: #e67e22;
+}
+
+.color-yellow {
+    color: #f1c40f;
+}
+
+.color-green1 {
+    color: #2ecc71;
+}
+
+.color-purple {
+    color: #9b6bcc;
+}
+
+.color-inherit {
+    color: inherit;
+}
+
+.color-dark-blue {
+    color: #4765a0;
+}
+
+.color-light-grey {
+    color: #585f69;
+}
+
+.color-light-green {
+    color: #79d5b3;
+}
+
+/*Background Colors
+------------------------------------*/
+.bg-color-dark,
+.bg-color-darker,
+.bg-color-sea,
+.bg-color-red,
+.bg-color-aqua,
+.bg-color-blue,
+.bg-color-grey,
+.bg-color-light,
+.bg-color-green,
+.bg-color-brown,
+.bg-color-orange,
+.bg-color-green1,
+.bg-color-purple,
+.bg-color-dark-blue,
+.bg-color-light-grey,
+.bg-color-light-green {
+    color: #fff;
+}
+
+.bg-color-white {
+    color: #555;
+}
+
+.bg-color-light-grey {
+    color: #000;
+}
+
+.bg-color-dark {
+    background-color: #555 !important;
+}
+
+.bg-color-darker {
+    background-color: #222 !important;
+}
+
+.bg-color-white {
+    background-color: #fff !important;
+}
+
+.bg-color-sea {
+    background-color: #1abc9c !important;
+}
+
+.bg-color-red {
+    background-color: #e74c3c !important;
+}
+
+.bg-color-aqua {
+    background-color: #27d7e7 !important;
+}
+
+.bg-color-darkblue {
+    background-color: #3360A9 !important;
+}
+
+.bg-color-blue {
+    background-color: #0072C6 !important;
+}
+
+.bg-color-grey {
+    background-color: #95a5a6 !important;
+}
+
+.bg-color-light {
+    background-color: #f7f7f7 !important;
+}
+
+.bg-color-lightblue {
+    background-color: #0091C9 !important;
+}
+
+.bg-color-green {
+    background-color: #72c02c !important;
+}
+
+.bg-color-brown {
+    background-color: #9c8061 !important;
+}
+
+.bg-color-orange {
+    background-color: #E28C05 !important;
+}
+
+.bg-color-green1 {
+    background-color: #2ecc71 !important;
+}
+
+.bg-color-pink {
+    background-color: #A00054 !important;
+}
+
+.bg-color-purple {
+    background-color: #9b6bcc !important;
+}
+
+.bg-color-dark-blue {
+    background-color: #4765a0 !important;
+}
+
+.bg-color-dark-grey {
+    background-color: #464647 !important;
+}
+
+.bg-color-light-grey {
+    background-color: #585f69 !important;
+}
+
+.bg-color-light-green {
+    background-color: #79d5b3 !important;
+}
+
+.rgba-red {
+    background-color: rgba(231,76,60,0.8);
+}
+
+.rgba-blue {
+    background-color: rgba(52,152,219,0.8);
+}
+
+.rgba-aqua {
+    background-color: rgba(39,215,231,0.8);
+}
+
+.rgba-yellow {
+    background-color: rgba(241,196,15,0.8);
+}
+
+.rgba-default {
+    background-color: rgba(114,192,44,0.8);
+}
+
+.rgba-purple {
+    background-color: rgba(155,107,204,0.8);
+}
+
+/*Grey Backroud*/
+.bg-grey {
+    background: #f7f7f7;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+}
+
+/*Rounded and Circle Classes
+------------------------------------*/
+.no-rounded {
+    border-radius: 0 !important;
+}
+
+.rounded {
+    border-radius: 4px !important;
+}
+
+.rounded-x {
+    border-radius: 50% !important;
+}
+
+.rounded-2x {
+    border-radius: 10px !important;
+}
+
+.rounded-3x {
+    border-radius: 15px !important;
+}
+
+.rounded-4x {
+    border-radius: 20px !important;
+}
+
+.rounded-sm {
+    border-radius: 2px !important;
+}
+
+.rounded-md {
+    border-radius: 3px !important;
+}
+
+.rounded-top {
+    border-radius: 4px 4px 0 0 !important;
+}
+
+.rounded-left {
+    border-radius: 4px 0 0 4px !important;
+}
+
+.rounded-right {
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.rounded-bottom {
+    border-radius: 0 0 4px 4px !important;
+}
+
+/*Others
+------------------------------------*/
+.overflow-h {
+    overflow: hidden;
+}
+
+.overflow-a {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.clear-both {
+    clear: both;
+}

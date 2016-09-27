@@ -1,0 +1,24 @@
+<h3>Corporate DNN Skin</h3>
+<p class="Contributor">
+	Gerald Ncube&reg; <br />
+	<a href="mailto:me@geraldncube.co.uk">me@geraldncube.co.uk</a><br />
+	<a href=http://geraldncube.co.uk>http://geraldncube.co.uk</a><br />
+</p>
+<hr/>
+<div class="License">
+	<p class="Owner">
+		<h3>About Corporate Skin</h3>
+		<strong>Version 8.0.1</strong><br /><br />		
+		This release requires DotNetNuke core 6.2 or greater. <br /><br />
+		<ul>
+			<li>Added Parallax Slider</li>
+			<li>Added Cube Portfolio</li>
+			<li>Added Team Class and SubMenu</li>
+			<li>Added Headline Style to Containers</li>
+			<li>Added SubMenu to Skin</li>
+			<li>Added Social and Groups</li>
+			<li>Added four column footer</li>
+			<li>Changed the menu to work properly on mobile devices</li>
+		</ul>
+	</p>
+</div>

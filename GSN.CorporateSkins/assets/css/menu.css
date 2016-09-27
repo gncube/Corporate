@@ -1,0 +1,136 @@
+﻿
+
+.dropdown-menu .dropdown > a:hover, .dropdown-menu .dropdown > a:focus {
+    /*color: #000;*/
+}
+
+
+
+/* Tertiary level */
+@media (min-width: 768px) {
+    .nav li ul.dropdown-menu li ul.dropdown-menu {
+        top: 3px;
+        left: 100%;
+        margin-top: -5px;
+        margin-left: 0px;
+        /*position: absolute;
+        top: 3px;
+        /*left: 190px;*/
+        /*left: 100%;*/
+        /*border-top: solid 2px #009bd5;
+    border-bottom: solid 2px #c0037b;*/
+    }
+
+
+    .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+        /*color: #fff;*/
+        text-decoration: none;
+        outline: 0;
+        /*background-color: #009bd5 !important;*/
+    }
+
+    .dropdown-menu {
+        min-width: 200px !important;
+    }
+}
+
+
+*-------------------------------------------------- [4. Header - Submenu] ----------------------------------------------------*/
+/*Dropdown Submenu for BS3
+------------------------------------*/
+.header .dropdown-submenu {
+    /*position: relative;*/
+}
+
+/*.header .dropdown > a:after,
+    .header .dropdown-submenu > a:after {
+        top: 15px;
+        right: 9px;
+        font-size: 14px;
+        content: "\f105";
+        position: absolute;
+        font-weight: normal;
+        display: inline-block;
+        font-family: FontAwesome;
+    }*/
+
+.dropdown > a:after {
+    content: "\f107";
+    position: absolute;
+    /*font-weight: bold;*/
+    display: inline-block;
+    font-family: FontAwesome;
+    padding: 0 5px;
+}
+
+  .dropdown-menu > li.dropdown > a:after {
+    top: 3px;
+    right: 15px;
+    /*font-size: 14px;*/
+    content: "\f105";
+    position: absolute;
+    /*font-weight: bold;*/
+    display: inline-block;
+    font-family: FontAwesome;
+}
+
+@media (max-width: 991px) {
+    .header .dropdown-submenu > a:after {
+        content: " ";
+    }
+}
+
+.header .dropdown > a:after {
+    top: 9px;
+    right: 15px;
+    content: "\f107";
+}
+
+.header .dropdown-submenu > .dropdown-menu {
+    top: 3px;
+    left: 100%;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+    /*Submenu comes from LEFT side*/
+    .header .dropdown-submenu > .dropdown-menu.submenu-left {
+        left: -100%;
+    }
+
+.header .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .header .dropdown-submenu > .dropdown-menu {
+        /*display: block;
+        margin-left: 15px;*/
+    }
+}
+
+.header .dropdown-submenu.pull-left {
+    float: none;
+}
+
+    .header .dropdown-submenu.pull-left > .dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+    }
+
+/*Dropdow Mmenu Icons (Font Awesome)*/
+.header .dropdown-menu li [class^="fa-"],
+.header .dropdown-menu li [class*=" fa-"] {
+    left: -3px;
+    width: 1.25em;
+    margin-right: 1px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+    .header .dropdown-menu li [class^="fa-"].fa-lg,
+    .header .dropdown-menu li [class*=" fa-"].fa-lg {
+        /* increased font size for fa-lg */
+        width: 1.5625em;
+    }

@@ -1,0 +1,62 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="GSN.Corporate" type="Skin" version="8.0.2">
+      <friendlyName>GSN.Corporate Skin</friendlyName>
+      <description>GSN.Corporate a DNN skin that uses Bootstrap and Fontawesome by Gerald Ncube</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>		
+      </owner>
+			<azureCompatible>true</azureCompatible>
+			<license src="License.txt"></license>
+			<releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <components>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>GSN.Corporate</skinName>
+            <basePath>Portals\_default\Skins\GSN.Corporate</basePath>
+          </skinFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Skins\GSN.Corporate</basePath>
+            <resourceFile>
+              <name>GSN.CorporateSkins.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+    <package name="GSN.Corporate" type="Container" version="8.0.2">
+      <friendlyName>GSN.Corporate Containers</friendlyName>
+      <description>GSN.Corporate DNN containers that uses Bootstrap and Fontawesome by Gerald Ncube</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
+      </owner>
+	  <azureCompatible>true</azureCompatible>
+      <license>Copyright by Gerald Ncube</license>
+      <releaseNotes></releaseNotes>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>GSN.Corporate</containerName>
+            <basePath>Portals\_default\Containers\GSN.Corporate</basePath>
+          </containerFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Containers\GSN.Corporate</basePath>
+            <resourceFile>
+              <name>GSN.CorporateContainers.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

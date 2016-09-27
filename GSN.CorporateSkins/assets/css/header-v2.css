@@ -1,0 +1,35 @@
+﻿
+/*.navbar-default .navbar-nav>li>a {
+    
+    text-transform: uppercase;
+    font-weight: bold;
+}*/
+
+.header-v2 .navbar-nav > li > a {
+    /*color: #fff;
+    font-size: 15px;*/
+    /*font-weight: bold;
+    letter-spacing: 1px;*/
+    /*text-transform: uppercase;*/
+    /*background: transparent;*/
+}
+
+
+.header-fixed-shrink .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 50px !important;
+    max-height: 50px !important;*/
+    z-index: 999;
+    position: fixed;
+    border-bottom: none;
+    box-shadow: 0 0 3px #bbb;
+    background: rgba(255,255,255, 0.96) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.dnnEditState .header-fixed-shrink .navbar {
+    top: 53px;
+}
