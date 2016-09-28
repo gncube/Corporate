@@ -1,3 +1,6 @@
+<%@ Control AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
+<%@ Register TagPrefix="dnn" TagName="TITLE" Src="~/Admin/Containers/Title.ascx" %>
+
 <link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/dataTables.bootstrap.css">
 <%--<link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/jquery.dataTables.css">--%>
 <link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/dataTables.tableTools.css">
