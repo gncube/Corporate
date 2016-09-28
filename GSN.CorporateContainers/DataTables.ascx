@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/dataTables.bootstrap.css">
 <%--<link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/jquery.dataTables.css">--%>
 <link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/plugins/dataTables/dataTables.tableTools.css">
-<link rel="stylesheet" type="text/css" href="<%= SkinPath%>DataTables.css">
+<link rel="stylesheet" type="text/css" href="<%= SkinPath%>assets/css/DataTables.css">
 
 <div class="margin-bottom-20">
     <h2><dnn:TITLE runat="server" id="dnnTITLE" CssClass="H2" /></h2>
