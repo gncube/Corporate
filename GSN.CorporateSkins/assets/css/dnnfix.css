@@ -1,24 +1,35 @@
 /* ======================================================= */
+
+
 /*                   Clear DNN Default                     */
+
+
 /* ======================================================= */
+
+
 /* ControlPanel
 ------------------------------------------------------------------------------*/
 
-#Body.dnnEditState .navbar-fixed-top, #Form.showControlBar .navbar-fixed-top {
+#Body.dnnEditState .navbar-fixed-top,
+#Form.showControlBar .navbar-fixed-top {
     top: 53px !important;
 }
 
-
-#Body.dnnEditState #ControlBar_ControlPanel, #Form.showControlBar #ControlBar_ControlPanel {
+#Body.dnnEditState #ControlBar_ControlPanel,
+#Form.showControlBar #ControlBar_ControlPanel {
     z-index: 2001 !important;
 }
 
+
 /*Edit Page Styles*/
-#ControlEditPageMenu .mark, #ControlEditPageMenu mark {
+
+#ControlEditPageMenu .mark,
+#ControlEditPageMenu mark {
     background-color: #3d3d3d !important;
 }
 
-#ControlBar_CustomMenuItems > li > a, #ControlActionMenu > li > a {
+#ControlBar_CustomMenuItems>li>a,
+#ControlActionMenu>li>a {
     /*display: block;
     padding: 22px 12px 0 12px;*/
     height: 53px !important;
@@ -29,14 +40,14 @@
     cursor: default;*/
 }
 
-#ControlNav > li > a {
+#ControlNav>li>a {
     /*display: block;
     padding: 20px 12px 0 12px;*/
     height: 53px !important;
     /*color: #999;*/
 }
 
-#ControlEditPageMenu > li > a {
+#ControlEditPageMenu>li>a {
     /*display: block;
     padding: 19px 12px 0 12px;*/
     height: 54px !important;
@@ -46,35 +57,38 @@
 }
 
 .subNav.advanced dl ul li {
-
     min-width: 105px;
     width: 139px;
-
 }
 
 
 /* Module Actions*/
-form .dnn_mact > li {
+
+form .dnn_mact>li {
     padding: 0 10px 0 0;
     margin: 0 10px 0 0;
 }
 
-    form .dnn_mact > li > a, .dnn_mact > li > a {
-        padding: 0;
-        margin: 0;
-        width: 24px !important;
-        height: 24px !important;
-        border: 2px solid #fff;
-    }
+form .dnn_mact>li>a,
+.dnn_mact>li>a {
+    padding: 0;
+    margin: 0;
+    width: 24px !important;
+    height: 24px !important;
+    border: 2px solid #fff;
+}
 
-.dnn_mact > li.actionMenuMove > ul li, ul#ControlBar_Module_ModulePosition li {
+.dnn_mact>li.actionMenuMove>ul li,
+ul#ControlBar_Module_ModulePosition li {
     padding: 5px 0 25px 10px;
     line-height: 20px;
 }
 
+
 /**/
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
 }
 
@@ -85,8 +99,8 @@ a:hover {
 
 /* SkinObject
 ----------------------------------------------------------------------------- */
-.SkinObject
-{
+
+.SkinObject {
     font-weight: inherit;
     font-size: inherit;
     text-decoration: inherit;
@@ -94,71 +108,98 @@ a:hover {
     font-family: inherit;
 }
 
-a.SkinObject:link, a.SkinObject:visited, a.SkinObject:hover, a.SkinObject:active
-{
+a.SkinObject:link,
+a.SkinObject:visited,
+a.SkinObject:hover,
+a.SkinObject:active {
     color: inherit;
 }
 
 
 /* Normal
 ----------------------------------------------------------------------------- */
-.Normal, .NormalDisabled, .NormalDeleted
-{
+
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
     font-size: inherit;
     font-weight: inherit;
     color: inherit;
-	line-height: inherit;
+    line-height: inherit;
 }
+
 
 /* Headers
 ----------------------------------------------------------------------------- */
-h1,	h2, h3, h4, h5, h6  
-{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     /*font-size: inherit; 
     line-height: inherit; 
     letter-spacing:inherit; 
     margin-top:inherit;
-    margin-bottom: inherit;*/ 
+    margin-bottom: inherit;*/
 }
+
 
 /* List Styles
 ----------------------------------------------------------------------------- */
-ul, ol, ul ul, ul ol, ol ol, ol ul, ol ol { 
-    margin-bottom: inherit; 
+
+ul,
+ol,
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+ol ol {
+    margin-bottom: inherit;
     margin-left: inherit;
     list-style: inherit;
 }
 
-li p { line-height: inherit; }
+li p {
+    line-height: inherit;
+}
+
 
 /* Form styles
 ----------------------------------------------------------------------------- */
+
 .use_form_styles .dnnFormItem input[type="text"],
 .use_form_styles .dnnFormItem input[type="password"],
 .use_form_styles .dnnFormItem input[type="email"],
 .use_form_styles .dnnFormItem input[type="tel"],
 .use_form_styles .dnnFormItem select,
-.use_form_styles .dnnFormItem textarea{
+.use_form_styles .dnnFormItem textarea {
     width: inherit;
     max-width: inherit;
     margin: inherit;
     float: inherit;
 }
 
-	.use_form_styles .dnnFormItem button, .dnnFormItem input[type="button"], 
-	.use_form_styles .dnnFormItem input[type="reset"], 
-	.use_form_styles .dnnFormItem input[type="submit"],
-	.use_form_styles .dnnPrimaryAction, 
-	.use_form_styles .dnnSecondaryAction, 
-	.use_form_styles .dnnTertiaryAction,
-	.use_form_styles ul.dnnAdminTabNav li a,
-	.use_form_styles .dnnLogin .LoginTabGroup span { 
-		padding: inherit;
-		margin-bottom: inherit;
-		min-width: inherit;
-		/*-webkit-border-radius: inherit;*/
-		border-radius: inherit;
-	}
-	
+.use_form_styles .dnnFormItem button,
+.dnnFormItem input[type="button"],
+.use_form_styles .dnnFormItem input[type="reset"],
+.use_form_styles .dnnFormItem input[type="submit"],
+.use_form_styles .dnnPrimaryAction,
+.use_form_styles .dnnSecondaryAction,
+.use_form_styles .dnnTertiaryAction,
+.use_form_styles ul.dnnAdminTabNav li a,
+.use_form_styles .dnnLogin .LoginTabGroup span {
+    padding: inherit;
+    margin-bottom: inherit;
+    min-width: inherit;
+    /*-webkit-border-radius: inherit;*/
+    border-radius: inherit;
+}
 
-
+#dnnModuleDigitalAssetsSelectionToolbar,
+#dnnModuleDigitalAssetsListViewToolbar,
+#dnnModuleDigitalAssetsListContainer,
+.dnnModuleDigitalAssetsGrid>table>thead>tr {
+    min-height: 40px;
+}
