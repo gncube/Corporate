@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="GSN.Corporate" type="Skin" version="8.0.2">
+    <package name="GSN.Corporate" type="Skin" version="8.0.3">
       <friendlyName>GSN.Corporate Skin</friendlyName>
       <description>GSN.Corporate a DNN skin that uses Bootstrap and Fontawesome by Gerald Ncube</description>
       <owner>
@@ -29,7 +29,7 @@
         </component>
       </components>
     </package>
-    <package name="GSN.Corporate" type="Container" version="8.0.2">
+    <package name="GSN.Corporate" type="Container" version="8.0.3">
       <friendlyName>GSN.Corporate Containers</friendlyName>
       <description>GSN.Corporate DNN containers that uses Bootstrap and Fontawesome by Gerald Ncube</description>
       <owner>

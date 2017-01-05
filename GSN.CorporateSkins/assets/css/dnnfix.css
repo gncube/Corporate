@@ -7,7 +7,7 @@
 /* ======================================================= */
 
 
-/* ControlPanel
+/* ControlPanel DNN8 and below
 ------------------------------------------------------------------------------*/
 
 #Body.dnnEditState .navbar-fixed-top,
@@ -138,11 +138,11 @@ h3,
 h4,
 h5,
 h6 {
-    /*font-size: inherit; 
-    line-height: inherit; 
-    letter-spacing:inherit; 
-    margin-top:inherit;
-    margin-bottom: inherit;*/
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    margin-top: inherit;
+    margin-bottom: inherit;
 }
 
 
@@ -157,7 +157,7 @@ ol ol,
 ol ul,
 ol ol {
     margin-bottom: inherit;
-    margin-left: inherit;
+    /*margin-left: inherit;*/
     list-style: inherit;
 }
 
