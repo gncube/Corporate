@@ -138,11 +138,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: inherit;
+    /*font-size: inherit;
     line-height: inherit;
     letter-spacing: inherit;
     margin-top: inherit;
-    margin-bottom: inherit;
+    margin-bottom: inherit;*/
 }
 
 
