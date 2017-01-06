@@ -231,6 +231,16 @@ footer {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
+
+/* Carosel Slider */
+
+.carousel-caption>p {
+    color: #fff;
+}
+
+
+/* Footer Styles */
+
 .footer {
     background-color: #eee;
     margin-top: 20px;
@@ -244,6 +254,10 @@ footer {
 
 .footer div.col-md-2.pull-right {
     padding-right: 0 !important;
+}
+
+.pull-left>.list-unstyled {
+    margin: 0 0 0 -18px;
 }
 
 .borderTopOrange {
