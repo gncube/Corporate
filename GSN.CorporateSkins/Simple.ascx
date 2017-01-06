@@ -26,24 +26,21 @@
 <header>
     <!-- Navigation -->
     <div class="header-fixed">
-        <div class="header header-sticky">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Start : Top bar -->
-                <div class="bg-color-pink">
-                    <div class="container">
-                        <!--#include file = "assets/includes/topbar.ascx" -->
-                    </div>
-                </div>
-                <!--// End Top bar -->
-
-                <!-- Start : Site Header -->
-                <div class="">
+        <div class="header header-sticky">            
+            <nav class="navbar navbar-default" role="navigation">    
+         
+                <div class="clearfix" />
+                            <!-- Start : Top bar -->
+                <div class="bg-color-pink1">
                     <div class="container">
                         <!--#include file = "assets/includes/comebackheader.ascx" -->
                     </div>
                 </div>
-                <!--// End Site Header -->
-                <div class="clearfix" />
+                <!--// End Top bar -->   
+                <div class="row margin-top-10">
+        <div class="bg-color-light height-10">     
+        </div>
+    </div>
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,10 +50,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="navbar-header small-screens hidden-sm hidden-md hidden-lg">
-                            <%--<dnn:LOGO runat="server" ID="dnnLOGO" />--%>
-                            <a class="navbar-brand" href="<%=NavigateURL(PortalSettings.HomeTabId)%>" title="<%=PortalSettings.PortalName %>">
-                                <%=PortalSettings.PortalName %>                    
-                            </a>
+                            <!--#include file = "assets/includes/call-to-action.ascx" -->
                         </div>
                     </div>
 
@@ -69,12 +63,11 @@
                         </div>
 
                         <dnn:MENU ID="MENU" MenuStyle="assets/menus/simple" runat="server"></dnn:MENU>
+                        <!-- Start : Call To Action -->
                         <div class="navbar-header pull-right hidden-xs">
-                            <%--<dnn:LOGO runat="server" ID="dnnLOGO" />--%>
-                            <a class="navbar-brand" href="<%=NavigateURL(PortalSettings.HomeTabId)%>" title="<%=PortalSettings.PortalName %>">
-                                <%=PortalSettings.PortalName %>                    
-                            </a>
+                        <!--#include file = "assets/includes/call-to-action.ascx" -->
                         </div>
+                        <!--// End Call To Action -->
                     </div>
                     <!--/.nav-collapse -->
                 </div>
