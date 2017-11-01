@@ -8,7 +8,7 @@
 <div class="License">
 	<p class="Owner">
 		<h3>About Corporate Skin</h3>
-		<strong>Version 8.0.1</strong><br /><br />		
+		<strong>Version 9.0.1</strong><br /><br />		
 		This release requires DotNetNuke core 6.2 or greater. <br /><br />
 		<ul>
 			<li>Added Parallax Slider</li>

@@ -31,18 +31,30 @@
                 <!-- Start : Top bar -->
                 <div class="bg-color-pink">
                     <div class="container">
-                        <!--#include file = "assets/includes/topbar.ascx" -->
+                        <div class="row">
+                            <div class="col-md-6 pull-left">
+                                <ul class="inline-list pull-left">
+                                    <li>
+                                        <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
+                                    </li>
+                                    <li>
+                                        <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 language">
+                                <dnn:LANGUAGE runat="server" ID="dnnLanguage" ShowMenu="False" ShowLinks="True" />
+                                <%--  <ul class="inline-list">     
+                                            <li class="search-button hidden-sm hidden-xs"><a class="glyphicon glyphicon-search" data-toggle="modal" data-target="#modalSearch"></a> </li>                                                    
+		                                </ul>--%>
+                                <div class="pull-right hidden-xs">
+                                    <dnn:SEARCH ID="dnnSearch" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="btn btn-default btn-sm" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--// End Top bar -->
-
-                <!-- Start : Site Header -->
-                <div class="">
-                    <div class="container">
-                        <!--#include file = "assets/includes/comebackheader.ascx" -->
-                    </div>
-                </div>
-                <!--// End Site Header -->
                 <div class="clearfix" />
                 <div class="container">
                     <div class="navbar-header">
@@ -70,10 +82,10 @@
 
                         <dnn:MENU ID="MENU" MenuStyle="assets/menus/simple" runat="server"></dnn:MENU>
                         <div class="navbar-header pull-right hidden-xs">
-                            <%--<dnn:LOGO runat="server" ID="dnnLOGO" />--%>
-                            <a class="navbar-brand" href="<%=NavigateURL(PortalSettings.HomeTabId)%>" title="<%=PortalSettings.PortalName %>">
+                            <dnn:LOGO runat="server" ID="dnnLOGO" />
+                            <%--<a class="navbar-brand" href="<%=NavigateURL(PortalSettings.HomeTabId)%>" title="<%=PortalSettings.PortalName %>">
                                 <%=PortalSettings.PortalName %>                    
-                            </a>
+                            </a>--%>
                         </div>
                     </div>
                     <!--/.nav-collapse -->
@@ -81,23 +93,15 @@
             </nav>
         </div>
     </div>
+    <!-- ./ Navigation -->
+    <!-- End : Header Section -->
+
     <section class="headerSeparator">
         <div class="container">
             <i class="icon-bracketDetail"></i>
         </div>
     </section>
-
-<%--    <div class="headerTopOrange">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="orange left bracket"></div>
-            </div>
-        </div>
-    </div>--%>
-
-    <!-- ./ Navigation -->
 </header>
-
 
 
 <!-- Start : Content Pane : full width -->
@@ -118,7 +122,56 @@
 
 <!--/contentWrapper-->
 <!-- Footer Section -->
-<!--#include file="assets/footer-v2.ascx"-->
+
+<div class="row-fluid">
+    <div class="container">
+        <div class="pull-right">
+            <a href="#top" title="Go to page top">
+                <span class="label label-danger padding-10 radius-zero"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer id="footerWrapper" class="footer margin-top-60 borderTopOrange">
+    <div class="row-fluid">
+        <section class="footerSeparator margin-bottom-30">
+            <div class="container">
+                <i class="icon-bracketDetail"></i>
+            </div>
+        </section>
+        <div class="container">
+            <div class="col-md-4 pull-left">
+                <ul class="list-unstyled">
+                    <li>
+                        <dnn:PRIVACY runat="server" ID="dnnPrivacy" Text="Privacy and Cookies" CssClass="copyright" />
+                    </li>
+                    <li>
+                        <dnn:TERMS runat="server" ID="dnnTerms" Text="Terms and Conditions" CssClass="copyright" />
+                    </li>
+                    <%--<li>
+                        <dnn:hostname runat="server" id="dnnHostName" />
+                    </li>--%>
+                    <li>
+                        <dnn:COPYRIGHT runat="server" ID="dnnCopyright" CssClass="copyright" />
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <p>Follow <a href="https://twitter.com/NHS_HealthEdEng" target="_blank">Health Education England</a> and our <a href="https://twitter.com/NHS_HealthEdEng/lists/local-offices/members" target="_blank">local offices</a> on Twitter.</p>
+            </div>
+
+            <div class="col-md-2 pull-right">
+                <img class="img-responsive pull-right" src="https://www.hee.nhs.uk/sites/default/files/logos/NHSConstitution.png" alt="NHS Constitution Logo" style="width: 100px; height: 100px;" />
+            </div>
+            <div class="col-md-12 margin-bottom-30">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <!--/copyright-->
+</footer>
+
 <!-- End Footer Section -->
 <!--/siteWrapper-->
 

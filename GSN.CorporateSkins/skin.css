@@ -1,27 +1,29 @@
+
 @import 'https://fonts.googleapis.com/css?family=Bitter';
 @import url(https://fonts.googleapis.com/css?family=Lato|Bitter:400,700);
+
 @font-face {
     font-family: 'FrutigerLight';
     src: url('assets/fonts/2638B7_0_0.eot');
-    src: url('assets/fonts/2638B7_0_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2638B7_0_0.woff') format('woff'), url('assets/fonts/2638B7_0_0.ttf') format('truetype');
+    src: url('assets/fonts/2638B7_0_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_0_0.woff') format('woff'),url('assets/fonts/2638B7_0_0.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FrutigerRoman';
     src: url('assets/fonts/2638B7_1_0.eot');
-    src: url('assets/fonts/2638B7_1_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2638B7_1_0.woff') format('woff'), url('assets/fonts/2638B7_1_0.ttf') format('truetype');
+    src: url('assets/fonts/2638B7_1_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_1_0.woff') format('woff'),url('assets/fonts/2638B7_1_0.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FrutigerBold';
     src: url('assets/fonts/2638B7_2_0.eot');
-    src: url('assets/fonts/2638B7_2_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2638B7_2_0.woff') format('woff'), url('assets/fonts/2638B7_2_0.ttf') format('truetype');
+    src: url('assets/fonts/2638B7_2_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2638B7_2_0.woff') format('woff'),url('assets/fonts/2638B7_2_0.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FrutigerBoldItalic';
     src: url('assets/fonts/26631E_0_0.eot');
-    src: url('assets/fonts/26631E_0_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/26631E_0_0.woff') format('woff'), url('assets/fonts/26631E_0_0.ttf') format('truetype');
+    src: url('assets/fonts/26631E_0_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/26631E_0_0.woff') format('woff'),url('assets/fonts/26631E_0_0.ttf') format('truetype');
 }
 
 @font-face {
@@ -42,21 +44,16 @@
 
 @font-face {
     font-family: "Frutiger LT W01 55 Roman";
-    src: url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.eot");
-    /* IE9*/
+    src: url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.eot"); /* IE9*/
     src: url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.woff2") format("woff2"), /* chrome、firefox */
     url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.woff") format("woff"), /* chrome、firefox */
     url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.svg#Frutiger LT W01 55 Roman") format("svg");
-    /* iOS 4.1- */
+    url("assets/fonts/Frutiger LT W01 55 Roman/Frutiger LT W01 55 Roman.svg#Frutiger LT W01 55 Roman") format("svg"); /* iOS 4.1- */
 }
 
-html,
-p,
-ul,
-ol,
-table {
+
+html, p, ul, ol, table {
     /*font-family: FrutigerLight, Arial, sans-serif;*/
     font-family: 'Frutiger LT W01 55 Roman';
     font-size: 1.15em;
@@ -64,23 +61,18 @@ table {
     color: #222;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', sans-serif;
     font-weight: normal;
     display: block !important;
 }
 
 h2 {
-    color: #222;
+    color: #222;   
 }
 
 .borded {
-    height: .2em;
+     height: .2em;
     display: block;
     width: 2.2em;
     background-color: #E28C05;
@@ -100,19 +92,7 @@ h2 {
     margin-left: 0.5em;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
 
@@ -133,6 +113,7 @@ summary {
     color: #E28C05;
     z-index: 9;
 }
+
 
 .footerSeparator {
     background-color: #E28C05;
@@ -157,7 +138,6 @@ summary {
     background-color: #eee;
     padding: 2em 0;
 }
-
 .borderBottomBlue {
     border-bottom: 0.3em solid #3360A9;
 }
@@ -167,13 +147,8 @@ summary {
 
 
 /****************************************************/
-
-
 /** Register & Login ********************************/
-
-
 /****************************************************/
-
 .inline-list {
     padding-left: 0;
     list-style: none;
@@ -181,13 +156,13 @@ summary {
     margin-bottom: 0;
 }
 
-.inline-list li {
-    display: inline-block;
-}
+    .inline-list li {
+        display: inline-block;
+    }
 
-.inline-list li {
-    float: right;
-}
+    .inline-list li {
+        float: right;
+    }
 
 .registerGroup li {
     float: left;
@@ -198,8 +173,7 @@ summary {
     margin-right: 0;
 }
 
-.registerGroup a,
-.loginGroup a {
+.registerGroup a, .loginGroup a {
     color: #fff;
     display: block;
     position: relative;
@@ -211,40 +185,35 @@ summary {
     font-size: 14px;
 }
 
-.registerGroup a:hover,
-.loginGroup a:hover {
-    background: rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
+    .registerGroup a:hover, .loginGroup a:hover {
+        background: rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
 
-.registerGroup a:hover,
-.loginGroup a:hover {
-    text-decoration: none;
-}
+    .registerGroup a:hover, .loginGroup a:hover {
+        text-decoration: none;
+    }
 
-.registerGroup a:active,
-.loginGroup a:active {
-    text-shadow: none;
-}
+    .registerGroup a:active, .loginGroup a:active {
+        text-shadow: none;
+    }
 
-.registerGroup a strong,
-.loginGroup a strong {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    font-size: 0;
-    text-indent: -9999px;
-}
+    .registerGroup a strong, .loginGroup a strong {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        font-size: 0;
+        text-indent: -9999px;
+    }
 
-.userMessages a,
-.userNotifications a {
+.userMessages a, .userNotifications a {
     background-color: transparent;
 }
 
@@ -253,12 +222,13 @@ summary {
     background: url('assets/img/message_icon.png') no-repeat center center;
 }
 
-.userNotifications {}
-
-.userNotifications strong {
-    height: 100%;
-    background: url('assets/img/notification_icon.png') no-repeat center center;
+.userNotifications {
 }
+
+    .userNotifications strong {
+        height: 100%;
+        background: url('assets/img/notification_icon.png') no-repeat center center;
+    }
 
 .registerGroup a span {
     display: inline-block;
@@ -278,7 +248,8 @@ summary {
     width: 32px;
 }
 
-.loginGroup {}
+.loginGroup {
+}
 
 .userMessages a span,
 .userNotifications a span {
@@ -288,8 +259,7 @@ summary {
     background-color: transparent;
 }
 
-.userNotifications span,
-.userMessages span {
+.userNotifications span, .userMessages span {
     height: 100%;
     display: block;
     position: absolute;
@@ -309,68 +279,46 @@ summary {
 .userMessages span {
     background: url('../../img/icon_message_active.png') no-repeat center center;
 }
-
-
 /****************************************************/
-
-
 /** Register & Login ********************************/
-
-
 /****************************************************/
 
 
 /****************************************************/
-
-
 /** Language ****************************************/
-
-
 /****************************************************/
-
 .language .language-object {
     margin: 0;
     padding: 0;
 }
 
-.language .language-object span:first-child {
-    padding-left: 8px;
-}
+    .language .language-object span:first-child {
+        padding-left: 8px;
+    }
 
-.language .language-object span {
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-    margin: 0;
-}
+    .language .language-object span {
+        float: left;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        margin: 0;
+    }
 
-.language .language-object .Language.selected img {
-    opacity: 1;
-}
+    .language .language-object .Language.selected img {
+        opacity: 1;
+    }
 
-.language .language-object span img {
-    height: 20px;
-    width: 25px;
-    opacity: 0.3;
-}
-
-
+    .language .language-object span img {
+        height: 20px;
+        width: 25px;
+        opacity: 0.3;
+    }
 /****************************************************/
-
-
 /** Language ****************************************/
-
-
 /****************************************************/
 
-
 /****************************************************/
-
-
 /** Topbar search button ****************************/
-
-
 /****************************************************/
 
 .search-button,
@@ -383,25 +331,16 @@ summary {
     color: #555555;
 }
 
-
 /****************************************************/
-
-
 /** Topbar search button ****************************/
-
-
 /****************************************************/
 
-
 /****************************************************/
-
-
 /** Search Input ************************************/
-
-
 /****************************************************/
 
-#dnn_dnnSearch_ClassicSearch {}
+#dnn_dnnSearch_ClassicSearch {
+}
 
 #dnn_dnnSearch2_txtSearch {
     min-width: 260px;
@@ -419,36 +358,36 @@ summary {
     margin: 2px 0;
 }
 
-.searchInputContainer input {
-    padding: 2px 10px;
-    margin: 2px 0;
-    height: 27px;
-    color: #333;
-}
+    .searchInputContainer input {
+        padding: 2px 10px;
+        margin: 2px 0;
+        height: 27px;
+        color: #333;
+    }
 
-.searchInputContainer input::-webkit-input-placeholder {
-    color: #818181;
-}
+        .searchInputContainer input::-webkit-input-placeholder {
+            color: #818181;
+        }
 
-.searchInputContainer input:-moz-placeholder {
-    color: #818181;
-}
+        .searchInputContainer input:-moz-placeholder {
+            color: #818181;
+        }
 
-.searchInputContainer input::-moz-placeholder {
-    color: #818181;
-}
+        .searchInputContainer input::-moz-placeholder {
+            color: #818181;
+        }
 
-.searchInputContainer input:-ms-input-placeholder {
-    color: #818181;
-}
+        .searchInputContainer input:-ms-input-placeholder {
+            color: #818181;
+        }
 
-.searchInputContainer a.dnnSearchBoxClearText {
-    right: 0 !important;
-}
+    .searchInputContainer a.dnnSearchBoxClearText {
+        right: 0 !important;
+    }
 
-.searchInputContainer a.dnnSearchBoxClearText.dnnShow {
-    bottom: 20px;
-}
+        .searchInputContainer a.dnnSearchBoxClearText.dnnShow {
+            bottom: 20px;
+        }
 
 .SearchButton {
     visibility: hidden;
@@ -466,28 +405,18 @@ ul.searchSkinObjectPreview {
     padding: 3px;
 }
 
-
 /****************************************************/
-
-
 /** Search Input ************************************/
-
-
 /****************************************************/
 
-
 /****************************************************/
-
-
 /** NavBar ************************************/
-
-
 /****************************************************/
-
 @media (min-width: 991px) {
     #dnnMenu {
         margin: 0 0 0 -15px;
     }
+
     .navbar-default .navbar-brand {
         margin: 0 -15px 0 0;
     }
@@ -499,35 +428,28 @@ ul.searchSkinObjectPreview {
     width: 100%;
     z-index: 999;
     position: fixed;
-    margin-top: -103px;
+    margin-top: -40px;
     border-bottom: none;
     box-shadow: 0 0 3px #bbb;
-    background: rgba(255, 255, 255, 0.96);
+    background: rgba(255,255,255, 0.96);
     transition: all 0.3s ease-in-out;
 }
 
-
 /****************************************************/
-
-
 /** NavBar  *************************************/
-
-
 /****************************************************/
 
 
 /* Empty Panes */
-
 .DNNEmptyPane {
-    width: 0 !important;
-    margin: 0 !important;
+    /*width: 0 !important;
+    margin: 0 !important;*/
     display: none !important;
     height: 0 !important;
 }
 
 
 /*Spaces*/
-
 .margin-bottom-5,
 .margin-bottom-10,
 .margin-bottom-20,
@@ -577,6 +499,7 @@ ul.searchSkinObjectPreview {
     margin-bottom: 60px;
 }
 
+
 .margin-right-5 {
     margin-right: 5px;
 }
@@ -612,6 +535,7 @@ ul.searchSkinObjectPreview {
 .margin-right-60 {
     margin-right: 60px;
 }
+
 
 .margin-left-5 {
     margin-left: 5px;
@@ -698,9 +622,7 @@ ul.searchSkinObjectPreview {
     margin-top: 60px;
 }
 
-
 /*Right and Left Border*/
-
 .right-border-10 {
     border-right: 10px solid #fff;
 }
@@ -717,27 +639,23 @@ ul.searchSkinObjectPreview {
     border-left: 20px solid #fff;
 }
 
-.no-padding,
-.nopadding {
+.no-padding, .nopadding {
     padding: 0 !important;
     margin: 0 !important;
 }
 
-.no-padding p,
-.nopadding p {
-    padding: 0 !important;
-    margin: 0 !important;
-}
+    .no-padding p, .nopadding p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 
-.no-padding.col-md-12 {
-    padding: 0 !important;
-    margin: 0 -15px !important;
-}
+    .no-padding.col-md-12 {
+        padding: 0 !important;
+        margin: 0 -15px !important;
+    }
 
 
 /*Pop Up Fix*/
-
-
 /*.dnnFormPopup {
   position: absolute !important;
   padding: 18px;
@@ -748,9 +666,7 @@ ul.searchSkinObjectPreview {
   z-index: 100000;
 }*/
 
-
 /*Bootswatch*/
-
 .bs-component {
     position: relative;
 }
@@ -762,16 +678,15 @@ a.selected-value {
     min-height: 32px !important;
 }
 
-.upper-case a {}
+
+.upper-case a {
+}
 
 
 /*Column Sizes
 ------------------------------------*/
-
-
 /*Remove the Gutter Padding from Columns*/
-
-.no-gutter>[class*='col-'] {
+.no-gutter > [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -781,16 +696,8 @@ a.selected-value {
     padding-left: 15px;
 }
 
-
 /*Heights
 ------------------------------------*/
-
-.height-10 {
-    min-height: 10px;
-    height: 10px;
-    max-height: 10px;
-}
-
 .height-50 {
     min-height: 50px;
 }
@@ -835,10 +742,8 @@ a.selected-value {
     min-height: 500px !important;
 }
 
-
 /*Spaces
 ------------------------------------*/
-
 .no-padding {
     padding: 0 !important;
 }
@@ -870,7 +775,9 @@ a.selected-value {
     padding-bottom: 20px;
 }
 
-.content {}
+.content {
+    
+}
 
 .content-sm {
     padding-top: 60px;
@@ -969,18 +876,23 @@ a.selected-value {
     .sm-margin-bottom-10 {
         margin-bottom: 10px;
     }
+
     .sm-margin-bottom-20 {
         margin-bottom: 20px;
     }
+
     .sm-margin-bottom-30 {
         margin-bottom: 30px;
     }
+
     .sm-margin-bottom-40 {
         margin-bottom: 40px;
     }
+
     .sm-margin-bottom-50 {
         margin-bottom: 50px;
     }
+
     .sm-margin-bottom-60 {
         margin-bottom: 60px;
     }
@@ -990,26 +902,29 @@ a.selected-value {
     .md-margin-bottom-10 {
         margin-bottom: 10px;
     }
+
     .md-margin-bottom-20 {
         margin-bottom: 20px;
     }
+
     .md-margin-bottom-30 {
         margin-bottom: 30px;
     }
+
     .md-margin-bottom-40 {
         margin-bottom: 40px;
     }
+
     .md-margin-bottom-50 {
         margin-bottom: 50px;
     }
+
     .md-margin-bottom-60 {
         margin-bottom: 60px;
     }
 }
 
-
 /*Other Spaces*/
-
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -1058,10 +973,8 @@ a.selected-value {
     border-radius: 0 !important;
 }
 
-
 /*Text Colors
 ------------------------------------*/
-
 .color-sea {
     color: #1abc9c;
 }
@@ -1134,10 +1047,8 @@ a.selected-value {
     color: #79d5b3;
 }
 
-
 /*Background Colors
 ------------------------------------*/
-
 .bg-color-dark,
 .bg-color-darker,
 .bg-color-sea,
@@ -1250,42 +1161,38 @@ a.selected-value {
 }
 
 .rgba-red {
-    background-color: rgba(231, 76, 60, 0.8);
+    background-color: rgba(231,76,60,0.8);
 }
 
 .rgba-blue {
-    background-color: rgba(52, 152, 219, 0.8);
+    background-color: rgba(52,152,219,0.8);
 }
 
 .rgba-aqua {
-    background-color: rgba(39, 215, 231, 0.8);
+    background-color: rgba(39,215,231,0.8);
 }
 
 .rgba-yellow {
-    background-color: rgba(241, 196, 15, 0.8);
+    background-color: rgba(241,196,15,0.8);
 }
 
 .rgba-default {
-    background-color: rgba(114, 192, 44, 0.8);
+    background-color: rgba(114,192,44,0.8);
 }
 
 .rgba-purple {
-    background-color: rgba(155, 107, 204, 0.8);
+    background-color: rgba(155,107,204,0.8);
 }
 
-
 /*Grey Backroud*/
-
 .bg-grey {
     background: #f7f7f7;
     border-top: solid 1px #eee;
     border-bottom: solid 1px #eee;
 }
 
-
 /*Rounded and Circle Classes
 ------------------------------------*/
-
 .no-rounded {
     border-radius: 0 !important;
 }
@@ -1334,10 +1241,8 @@ a.selected-value {
     border-radius: 0 0 4px 4px !important;
 }
 
-
 /*Others
 ------------------------------------*/
-
 .overflow-h {
     overflow: hidden;
 }
@@ -1352,4 +1257,8 @@ a.selected-value {
 
 .clear-both {
     clear: both;
+}
+
+.dnnModuleDialog {
+    top: 30% !important;
 }

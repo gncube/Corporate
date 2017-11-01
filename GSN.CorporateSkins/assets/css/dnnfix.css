@@ -203,3 +203,10 @@ li p {
 .dnnModuleDigitalAssetsGrid>table>thead>tr {
     min-height: 40px;
 }
+
+
+
+.dnnModuleManager.dnnSortable {
+    min-height: 80px;
+    min-height: 85px !important;
+}

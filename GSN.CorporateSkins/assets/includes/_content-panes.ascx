@@ -1,8 +1,9 @@
-﻿<div runat="server" id="TopAPane"></div>
+﻿<div class="row" runat="server" id="TopAPane"></div>
 
 <div class="container">
     <div class="row"><div class="col-md-12" runat="server" id="TopBPane"></div></div>
 </div>
+
 
 <div class="container">
     <div class="row">
@@ -40,8 +41,8 @@
     </div>
 </div>
 
+
 <div class="container">
     <div class="row"><div class="col-md-12" runat="server" id="BottomAPane"></div></div>
 </div>
 
-<div runat="server" id="BottomBPane"></div>
