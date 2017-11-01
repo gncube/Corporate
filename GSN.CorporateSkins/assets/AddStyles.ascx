@@ -1,4 +1,5 @@
-﻿
+﻿<%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
+
 <dnn:DnnCssInclude ID="BootstrapCSS" runat="server" FilePath="assets/plugins/bootstrap/3.3.7/css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="12" />
 <%--<dnn:DnnCssInclude ID="BootstrapThemeCSS" runat="server" FilePath="assets/plugins/bootstrap/3.3.7/css/bootstrap-theme.min.css" PathNameAlias="SkinPath" Priority="13" />--%>
 <dnn:DnnCssInclude ID="fontawaresomeCSS" runat="server" FilePath="assets/plugins/font-awesome/4.6.3/css/font-awesome.min.css" PathNameAlias="SkinPath" Priority="14" />

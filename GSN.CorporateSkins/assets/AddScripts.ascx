@@ -1,4 +1,6 @@
-﻿<%-- JS files --%>
+﻿<%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
+
+<%-- JS files --%>
 <dnn:dnnjsinclude id="BootstrapJS" runat="server" filepath="assets/plugins/bootstrap/3.3.7/js/bootstrap.js" pathnamealias="SkinPath" />
 <dnn:dnnjsinclude id="SmartMenusJquery" runat="server" filepath="assets/js/jquery.smartmenus.js" pathnamealias="SkinPath" />
 <dnn:dnnjsinclude id="SmartMenusJqueryBootstrap" runat="server" filepath="assets/js/jquery.smartmenus.bootstrap.js" pathnamealias="SkinPath" />

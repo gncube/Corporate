@@ -234,10 +234,6 @@ footer {
 
 /* Carosel Slider */
 
-.carousel-caption>h3 {
-    font-size: 2.8em;
-}
-
 .carousel-caption>p {
     color: #fff;
 }
@@ -481,28 +477,8 @@ select {
 }
 
 
-/* Call to Action */
-
-.navbar-header>.navbar-btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-
 /* Fix headers in jumbotron */
 
 .text-center>h2:after {
     display: none;
-}
-
-
-/* Fixed Blockquote */
-
-blockquote {
-    margin: 50px 0 30px;
-    padding: 55px 20px 50px 20px;
-}
-
-blockquote:before {
-    top: -4px;
 }
